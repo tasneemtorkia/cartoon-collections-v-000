@@ -14,5 +14,5 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.select { |str| str.include?(cheese_types) }
+  ingredients.select.to_s { |str| str.include?(cheese_types) }
 end
