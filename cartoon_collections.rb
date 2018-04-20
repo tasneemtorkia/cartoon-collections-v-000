@@ -17,7 +17,3 @@ def find_the_cheese(ingredients)
   cheese_types.find do |str| str.include?(str) 
 end
 end 
-#cheese_types.find do |food|
-#+    strings.include?(food)
-   
-   #end	   end
